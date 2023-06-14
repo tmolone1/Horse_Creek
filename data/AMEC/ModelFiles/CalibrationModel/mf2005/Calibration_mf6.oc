@@ -1,0 +1,13 @@
+# OC6 input file, prepared by MF5to6 on 7/11/2022 at 14:24:43.
+
+BEGIN Options
+  BUDGET FILEOUT  Calibration_mf6_Calibration.cbb
+  HEAD FILEOUT  Calibration_mf6_Calibration.hds
+  HEAD PRINT_FORMAT  COLUMNS 10  WIDTH 11  DIGITS 4  GENERAL             
+END Options
+
+BEGIN PERIOD 1
+  SAVE BUDGET ALL
+  PRINT BUDGET ALL
+  SAVE HEAD ALL
+END PERIOD

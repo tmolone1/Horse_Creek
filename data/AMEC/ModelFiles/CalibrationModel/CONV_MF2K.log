@@ -1,0 +1,68 @@
+  M2Kto2005 converter version 1.2       
+ 
+  MODOUT: 0
+  Maximum number of variables: 2000
+  Maximum number of file names: 300
+ 
+# MODFLOW-2005 Name File                                                        
+
+ OPENING Calibration.out
+ FILE TYPE:LIST   UNIT   2
+
+ OPENING CONV_MF2K.ba6
+ FILE TYPE:BAS6   UNIT   1
+
+ OPENING CONV_MF2K.bc6
+ FILE TYPE:BCF6   UNIT  11
+
+ OPENING Calibration.wel
+ FILE TYPE:WEL   UNIT  12
+
+ OPENING Calibration.drn
+ FILE TYPE:DRN   UNIT  13
+
+ OPENING Calibration.riv
+ FILE TYPE:RIV   UNIT  78
+
+ OPENING Calibration.evt
+ FILE TYPE:EVT   UNIT  20
+
+ OPENING Calibration.ghb
+ FILE TYPE:GHB   UNIT  37
+
+ OPENING Calibration.rch
+ FILE TYPE:RCH   UNIT  18
+
+ OPENING Calibration.oc
+ FILE TYPE:OC   UNIT  22
+
+ OPENING Calibration.sip
+ FILE TYPE:SIP   UNIT  19
+
+ OPENING Calibration.sfr
+ FILE TYPE:SFR   UNIT  81
+
+ OPENING Calibration.cbb
+ FILE TYPE:DATA(BINARY)   UNIT  50
+
+ OPENING Calibration.cbw
+ FILE TYPE:DATA(BINARY)   UNIT  54
+
+ OPENING Calibration.crc
+ FILE TYPE:DATA(BINARY)   UNIT  51
+
+ OPENING Calibration.hds
+ FILE TYPE:DATA(BINARY)   UNIT  30
+
+ OPENING Calibration.ddn
+ FILE TYPE:DATA(BINARY)   UNIT  31
+
+ OPENING CONV_MF2K.dis
+ FILE TYPE:DIS   UNIT  10
+  MODINP: 0
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT 10
+    1 LAYERS        57 ROWS        63 COLUMNS
+   1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS DAYS
+ MODEL LENGTH UNIT IS FEET

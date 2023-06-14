@@ -1,0 +1,8 @@
+         1         0
+         0         0         0
+ 4480.0000 4480.0000 4480.0000
+         1         1         0  # Stress period 1
+OPEN/CLOSE  ref\lkarr_stressperiod_0_layer_1.ref               1     (FREE) -1 lkarr_stressperiod_0_layer_0  
+OPEN/CLOSE  ref\bdlknc_stressperiod_0_layer_1.ref               1     (FREE) -1 bdlknc_stressperiod_0_layer_0 
+    0  # Data set 7
+    0.0002    0.0100         0  1.78e+06  # Data set 9a

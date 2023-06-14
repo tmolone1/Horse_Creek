@@ -1,0 +1,48 @@
+
+ ========== TRANSLATION TO USGS-MODFLOW ==========
+
+
+
+ >>>>> Testing Layer Elevations <<<<<
+
+ *** Opening HEADSAVE File to set initial conditions ***
+
+*** Reading Heads for Layer 1 ***
+    Reading Binary File
+ Time step and stress period found in file     0 ERRORS,   0 WARNINGS
+
+ >>>>> Translating BLOCK-CENTERED-FLOW Package <<<<<
+
+ WARNING -- Transition from row   2 to   1 violates 50 percent convention 
+
+
+ >>>>> Translating SFR Package <<<<<
+
+
+ >>>>> Translating RIVER Package <<<<<
+
+
+ >>>>> Translating DRAIN Package <<<<<
+
+
+ >>>>> Translating GHB Package <<<<<
+
+
+ >>>>> Translating WELL 1 Package <<<<<
+
+
+ >>>>> Translating RECHARGE Package <<<<<
+
+
+ >>>>> Translating EVAPOTRANSPIRATION Package <<<<<
+
+
+ >>>>> Translating BASIC Package <<<<<
+     0 ERRORS,   0 WARNINGS
+
+ >>>>> Translating Discretization Package <<<<<
+
+ WARNING -- Transition from row   2 to   1 violates 50 percent convention 
+     0 ERRORS,   1 WARNINGS
+
+ ========== TRANSLATION COMPLETE! ==========

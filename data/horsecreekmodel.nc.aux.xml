@@ -1,0 +1,26 @@
+<PAMDataset>
+  <Subdataset name="horizontal_hydraulic_conductivity">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">251.77000427246</MDI>
+          <MDI key="STATISTICS_MEAN">45.054031826253</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.053599998354912</MDI>
+          <MDI key="STATISTICS_STDDEV">73.615325929865</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="transmissivity">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">0</MDI>
+          <MDI key="STATISTICS_MEAN">0</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>

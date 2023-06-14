@@ -1,0 +1,4 @@
+        50    -1E+30         0     1.000         5         0
+03
+OPEN/CLOSE       ref\Anisotropy_factor.ref               1     (FREE) -1 Anisotropy factor             
+OPEN/CLOSE  ref\Horizontal_Hydraulic_Conductivity_Layer_1.ref               1     (FREE) -1 hy                            

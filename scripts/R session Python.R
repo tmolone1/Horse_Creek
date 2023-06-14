@@ -1,0 +1,11 @@
+library(reticulate)
+use_python("C:/Users/tim.moloney/AppData/Local/Programs/Python/Python310")
+py$ml.packagelist[3].stress_period_data.df.flux
+py$spdflux
+py$df
+k*j
+K*j
+new_spd<-py$spd
+new_spd[38,'flux']<-0
+new_spd[39,'flux']<-0
+new_spd<-new_spd[,c(2:4,6)]

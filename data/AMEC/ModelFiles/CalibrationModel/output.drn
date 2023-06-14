@@ -1,0 +1,11 @@
+# DRN6 input file, prepared by MF5to6 on 7/11/2022 at 13:49:56.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  0
+END Dimensions

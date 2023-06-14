@@ -1,0 +1,444 @@
+                                 MODFLOW-2000
+     U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                          VERSION 1.19.01 03/25/2010
+
+
+This model run produced both GLOBAL and LIST files.  This is the GLOBAL file.
+
+GLOBAL LISTING FILE: HC_010511c.glo
+                        UNIT    6
+
+OPENING HC_010511c.lst
+FILE TYPE:LIST   UNIT    7   STATUS:REPLACE
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.bas
+FILE TYPE:BAS6   UNIT    1   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.dis
+FILE TYPE:DIS   UNIT   29   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.lpf
+FILE TYPE:LPF   UNIT   11   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.zone
+FILE TYPE:ZONE   UNIT   40   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.sfr
+FILE TYPE:SFR   UNIT   81   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.wel
+FILE TYPE:WEL   UNIT   12   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.drn
+FILE TYPE:DRN   UNIT   13   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.evt
+FILE TYPE:EVT   UNIT   20   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.rch
+FILE TYPE:RCH   UNIT   18   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.oc
+FILE TYPE:OC   UNIT   22   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.sip
+FILE TYPE:SIP   UNIT   19   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.lak
+FILE TYPE:LAK   UNIT   44   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.cbb
+FILE TYPE:DATA(BINARY)   UNIT   50   STATUS:UNKNOWN
+FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.cbw
+FILE TYPE:DATA(BINARY)   UNIT   54   STATUS:UNKNOWN
+FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.crc
+FILE TYPE:DATA(BINARY)   UNIT   51   STATUS:UNKNOWN
+FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.hds
+FILE TYPE:DATA(BINARY)   UNIT   30   STATUS:UNKNOWN
+FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.ddn
+FILE TYPE:DATA(BINARY)   UNIT   31   STATUS:UNKNOWN
+FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+OPENING HC_010511c.lmt
+FILE TYPE:LMT6   UNIT   33   STATUS:OLD    
+FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+
+DISCRETIZATION INPUT DATA READ FROM UNIT   29
+# MODFLOW2000 Discretization File
+   1 LAYERS        57 ROWS        63 COLUMNS
+   1 STRESS PERIOD(S) IN SIMULATION
+MODEL TIME UNIT IS DAYS
+MODEL LENGTH UNIT IS FEET
+THE GROUND-WATER TRANSPORT PROCESS IS INACTIVE
+
+THE OBSERVATION PROCESS IS INACTIVE
+THE SENSITIVITY PROCESS IS INACTIVE
+THE PARAMETER-ESTIMATION PROCESS IS INACTIVE
+
+MODE: FORWARD
+
+
+ZONE OPTION, INPUT READ FROM UNIT   40
+# MODFLOW2000 Zone File
+# Groundwater Vistas writes all zones regardless of whether
+# they are being used.  These zones include:
+#     kxzone##, kzzone##, szone##, rzone, and etzone, where
+#     ## is the layer number
+    4 ZONE ARRAYS
+ Confining bed flag for each layer:
+  0
+
+     32439  ELEMENTS OF GX ARRAY USED OUT OF      32439
+      3591  ELEMENTS OF GZ ARRAY USED OUT OF       3591
+     17955  ELEMENTS OF IG ARRAY USED OUT OF      17955
+
+                    DELR =   1000.00    
+
+
+
+                              DELC
+READING ON UNIT   29 WITH FORMAT: (10E12.4)           
+  2000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0    
+  1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0    
+  1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0    
+  1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0    
+  1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0    
+  1000.0       1000.0       1000.0       1000.0       1000.0       1000.0       1000.0    
+
+
+
+          TOP ELEVATION OF LAYER 1
+READING ON UNIT   29 WITH FORMAT: (10e12.4)           
+
+
+
+            MODEL LAYER BOTTOM EL. FOR LAYER   1
+READING ON UNIT   29 WITH FORMAT: (10e12.4)           
+
+
+STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+----------------------------------------------------------------------------
+       1         1000.000          1                    1.000         SS
+
+STEADY-STATE SIMULATION
+
+
+
+
+
+
+            ZONE ARRAY: kxzone1   
+READING ON UNIT   40 WITH FORMAT: (50I3)              
+
+  ZONE ARRAY: szone1     =              1
+
+
+
+            ZONE ARRAY: rzone1    
+READING ON UNIT   40 WITH FORMAT: (50I3)              
+
+  ZONE ARRAY: etzone1    =              1
+
+LPF1 -- LAYER PROPERTY FLOW PACKAGE, VERSION 1, 1/11/2000
+        INPUT READ FROM UNIT   11
+# MODFLOW2000 Layer Property Flow (LPF) Package
+CELL-BY-CELL FLOWS WILL BE SAVED ON UNIT   50
+HEAD AT CELLS THAT CONVERT TO DRY= -1.00000E+30
+No named parameters
+
+  LAYER FLAGS:
+LAYER       LAYTYP        LAYAVG         CHANI        LAYVKA        LAYWET
+---------------------------------------------------------------------------
+   1             1             0     1.000E+00             0             0
+
+  INTERPRETATION OF LAYER FLAGS:
+                       INTERBLOCK     HORIZONTAL    DATA IN
+        LAYER TYPE   TRANSMISSIVITY   ANISOTROPY   ARRAY VKA   WETTABILITY
+LAYER      (LAYTYP)      (LAYAVG)       (CHANI)      (LAYVKA)      (LAYWET)
+---------------------------------------------------------------------------
+   1   CONVERTIBLE      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+
+      7182 ELEMENTS IN X ARRAY ARE USED BY LPF
+         6 ELEMENTS IN IX ARRAY ARE USED BY LPF
+
+SIP5 -- STRONGLY IMPLICIT PROCEDURE SOLUTION PACKAGE
+                   VERSION 5, 9/1/93 INPUT READ FROM UNIT   19
+MAXIMUM OF 250 ITERATIONS ALLOWED FOR CLOSURE
+ 5 ITERATION PARAMETERS
+     14619 ELEMENTS IN X ARRAY ARE USED BY SIP
+       750 ELEMENTS IN IX ARRAY ARE USED BY SIP
+
+     21801  ELEMENTS OF X ARRAY USED OUT OF      21801
+         0  ELEMENTS OF Z ARRAY USED OUT OF          1
+       756  ELEMENTS OF IX ARRAY USED OUT OF        756
+         0  ELEMENTS OF XHS ARRAY USED OUT OF          1
+
+
+
+         SOLUTION BY THE STRONGLY IMPLICIT PROCEDURE
+         -------------------------------------------
+MAXIMUM ITERATIONS ALLOWED FOR CLOSURE =      250
+                ACCELERATION PARAMETER =     1.0000    
+     HEAD CHANGE CRITERION FOR CLOSURE =    0.10000E-02
+     SIP HEAD CHANGE PRINTOUT INTERVAL =        5
+
+    CALCULATE ITERATION PARAMETERS FROM MODEL CALCULATED WSEED
+
+WETTING CAPABILITY IS NOT ACTIVE IN ANY LAYER
+
+
+
+             HYD. COND. ALONG ROWS FOR LAYER   1
+READING ON UNIT   11 WITH FORMAT: (10e12.4)           
+
+
+
+               VERTICAL HYD. COND. FOR LAYER   1
+READING ON UNIT   11 WITH FORMAT: (10e12.4)           
+
+
+    0 Well parameters
+
+
+    0 Drain parameters
+
+
+    0 Evapotranspiration parameters
+
+
+    0 Recharge parameters
+
+
+  STREAM NETWORK DESCRIPTION: 
+
+  LAYER    ROW    COL   SEGMENT   REACH     LENGTH
+                         NUMBER   NUMBER    IN CELL
+  --------------------------------------------------
+     1     56     47       1        1    1.1095E+03
+     1     56     46       1        2    1.1095E+03
+     1     55     46       1        3    1.1095E+03
+     1     55     45       1        4    1.1095E+03
+     1     54     45       1        5    1.1095E+03
+     1     54     44       1        6    1.1095E+03
+     1     53     44       1        7    1.1095E+03
+     1     53     43       1        8    1.1095E+03
+     1     53     42       1        9    1.1095E+03
+     1     53     41       1       10    1.1095E+03
+     1     52     41       1       11    1.1095E+03
+     1     51     41       1       12    1.1095E+03
+     1     51     40       1       13    1.1095E+03
+     1     50     40       1       14    1.1095E+03
+     1     50     39       1       15    1.1095E+03
+     1     50     38       1       16    1.1095E+03
+     1     49     38       1       17    1.1095E+03
+     1     49     39       1       18    1.1095E+03
+     1     48     39       1       19    1.1095E+03
+     1     47     39       1       20    1.1095E+03
+     1     47     38       2        1    7.8350E+02
+     1     47     37       2        2    7.8350E+02
+     1     46     37       2        3    7.8350E+02
+     1     46     36       2        4    7.8350E+02
+     1     45     36       2        5    7.8350E+02
+     1     45     35       2        6    7.8350E+02
+     1     44     35       2        7    7.8350E+02
+     1     44     34       2        8    7.8350E+02
+     1     43     34       2        9    7.8350E+02
+     1     42     34       2       10    7.8350E+02
+     1     42     33       2       11    7.8350E+02
+     1     41     33       2       12    7.8350E+02
+     1     42     32       3        1    9.4030E+02
+     1     42     31       3        2    9.4030E+02
+     1     43     31       3        3    9.4030E+02
+     1     43     30       3        4    9.4030E+02
+     1     44     30       3        5    9.4030E+02
+     1     44     29       3        6    9.4030E+02
+     1     44     28       3        7    9.4030E+02
+     1     44     27       3        8    9.4030E+02
+     1     44     26       3        9    9.4030E+02
+     1     43     26       3       10    9.4030E+02
+     1     43     25       3       11    9.4030E+02
+     1     41     32       4        1    1.1775E+03
+     1     41     31       4        2    1.1775E+03
+     1     41     30       4        3    1.1775E+03
+     1     41     29       4        4    1.1775E+03
+     1     41     28       4        5    1.1775E+03
+     1     40     28       4        6    1.1775E+03
+     1     40     27       5        1    1.1310E+03
+     1     40     26       5        2    1.1310E+03
+     1     39     26       5        3    1.1310E+03
+     1     39     25       5        4    1.1310E+03
+     1     38     25       6        1    8.6690E+02
+     1     37     25       6        2    8.6690E+02
+     1     37     24       6        3    8.6690E+02
+     1     36     24       6        4    8.6690E+02
+     1     36     25       6        5    8.6690E+02
+     1     35     25       6        6    8.6690E+02
+     1     34     25       6        7    8.6690E+02
+     1     34     26       6        8    8.6690E+02
+     1     33     26       6        9    8.6690E+02
+     1     33     27       6       10    8.6690E+02
+     1     32     27       6       11    8.6690E+02
+     1     32     28       6       12    8.6690E+02
+     1     32     29       6       13    8.6690E+02
+     1     31     29       6       14    8.6690E+02
+     1     31     30       6       15    8.6690E+02
+     1     30     30       6       16    8.6690E+02
+     1     30     31       6       17    8.6690E+02
+     1     29     31       6       18    8.6690E+02
+     1     29     32       6       19    8.6690E+02
+     1     28     32       6       20    8.6690E+02
+     1     28     33       6       21    8.6690E+02
+     1     27     33       6       22    8.6690E+02
+     1     27     34       6       23    8.6690E+02
+     1     26     34       6       24    8.6690E+02
+     1     25     34       6       25    8.6690E+02
+     1     39     24       7        1    1.2037E+03
+     1     39     23       7        2    1.2037E+03
+     1     39     22       7        3    1.2037E+03
+     1     40     22       7        4    1.2037E+03
+     1     40     21       7        5    1.2037E+03
+     1     39     21       7        6    1.2037E+03
+     1     39     20       7        7    1.2037E+03
+     1     38     20       7        8    1.2037E+03
+     1     37     20       7        9    1.2037E+03
+     1     37     19       8        1    1.1068E+03
+     1     37     18       8        2    1.1068E+03
+     1     36     18       8        3    1.1068E+03
+     1     36     17       8        4    1.1068E+03
+     1     36     16       8        5    1.1068E+03
+     1     35     18       9        1    8.9210E+02
+     1     35     17       9        2    8.9210E+02
+     1     34     17       9        3    8.9210E+02
+     1     33     17       9        4    8.9210E+02
+     1     32     17       9        5    8.9210E+02
+     1     31     17       9        6    8.9210E+02
+     1     31     18       9        7    8.9210E+02
+     1     30     18       9        8    8.9210E+02
+     1     29     18       9        9    8.9210E+02
+     1     52      7      10        1    9.7000E+02
+     1     52      8      10        2    9.7000E+02
+     1     51      8      10        3    9.7000E+02
+     1     51      9      10        4    9.7000E+02
+     1     50      9      10        5    9.7000E+02
+     1     50     10      10        6    9.7000E+02
+     1     50     11      10        7    9.7000E+02
+     1     49     11      10        8    9.7000E+02
+     1     49     12      10        9    9.7000E+02
+     1     50     12      10       10    9.7000E+02
+     1     50     13      10       11    9.7000E+02
+     1     49     18      11        1    8.2110E+02
+     1     50     18      11        2    8.2110E+02
+     1     50     17      11        3    8.2110E+02
+     1     50     16      11        4    8.2110E+02
+     1     50     15      11        5    8.2110E+02
+     1     50     14      11        6    8.2110E+02
+     1     49     13      12        1    1.0248E+03
+     1     49     14      12        2    1.0248E+03
+     1     49     15      12        3    1.0248E+03
+     1     48     15      12        4    1.0248E+03
+     1     48     16      12        5    1.0248E+03
+     1     48     17      12        6    1.0248E+03
+     1     47     17      12        7    1.0248E+03
+     1     46     17      12        8    1.0248E+03
+     1     46     16      12        9    1.0248E+03
+     1     45     16      12       10    1.0248E+03
+     1     45     15      12       11    1.0248E+03
+     1     45     14      12       12    1.0248E+03
+     1     44     14      12       13    1.0248E+03
+     1     43     14      12       14    1.0248E+03
+     1     43     13      12       15    1.0248E+03
+     1     42     13      12       16    1.0248E+03
+     1     42     12      13        1    8.2300E+02
+     1     42     11      13        2    8.2300E+02
+     1     42     10      13        3    8.2300E+02
+     1     42      9      13        4    8.2300E+02
+     1     42      8      13        5    8.2300E+02
+     1     41      8      13        6    8.2300E+02
+     1     40      8      13        7    8.2300E+02
+     1     40      7      13        8    8.2300E+02
+     1     39      7      13        9    8.2300E+02
+     1     39      6      13       10    8.2300E+02
+     1     38      6      13       11    8.2300E+02
+     1     41     13      14        1    1.2380E+03
+     1     40     13      14        2    1.2380E+03
+     1     39     13      15        1    8.5740E+02
+     1     38     13      15        2    8.5740E+02
+     1     38     14      15        3    8.5740E+02
+     1     37     14      15        4    8.5740E+02
+     1     36     14      15        5    8.5740E+02
+     1     36     15      15        6    8.5740E+02
+     1     40     12      16        1    7.6260E+02
+     1     39     12      16        2    7.6260E+02
+     1     38     12      16        3    7.6260E+02
+     1     37     12      16        4    7.6260E+02
+     1     37     11      16        5    7.6260E+02
+     1     36     11      16        6    7.6260E+02
+     1     35     11      16        7    7.6260E+02
+     1     34     11      16        8    7.6260E+02
+     1     34     10      16        9    7.6260E+02
+     1     35     16      17        1    1.0031E+03
+     1     35     15      17        2    1.0031E+03
+     1     35     14      17        3    1.0031E+03
+     1     35     13      17        4    1.0031E+03
+     1     34     13      17        5    1.0031E+03
+     1     34     12      17        6    1.0031E+03
+     1     33     12      17        7    1.0031E+03
+     1     33     11      18        1    1.0480E+03
+     1     33     10      18        2    1.0480E+03
+     1     32     10      18        3    1.0480E+03
+     1     31     10      19        1    1.1935E+03
+     1     31      9      19        2    1.1935E+03
+     1     30      9      19        3    1.1935E+03
+     1     30      8      20        1    6.0320E+02
+     1     29      8      20        2    6.0320E+02
+     1     29      7      20        3    6.0320E+02
+     1     28      7      20        4    6.0320E+02
+     1     29      9      21        1    5.6320E+02
+     1     29     10      21        2    5.6320E+02
+     1     28     10      21        3    5.6320E+02
+     1     28     11      21        4    5.6320E+02
+     1     27     11      21        5    5.6320E+02
+     1     32      9      22        1    2.0226E+03
+     1     32      8      22        2    2.0226E+03
+     1     31      8      22        3    2.0226E+03
+     1     31      7      22        4    2.0226E+03
+     1     31      6      22        5    2.0226E+03
+     1     30      6      22        6    2.0226E+03
+     1     30      5      22        7    2.0226E+03
+     1     29      5      22        8    2.0226E+03
+     1     28      5      23        1    1.7879E+03
+     1     28      4      23        2    1.7879E+03
+     1     28      3      23        3    1.7879E+03
+     1     27      3      23        4    1.7879E+03
+     1     27      2      23        5    1.7879E+03
+     1     26      2      23        6    1.7879E+03
+     1     27      5      24        1    7.8490E+02
+     1     27      4      24        2    7.8490E+02
+     1     26      4      24        3    7.8490E+02
+     1     26      3      24        4    7.8490E+02
+     1     25      3      24        5    7.8485E+02
+
+
+
